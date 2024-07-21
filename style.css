@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* #particles-js {
+    width: 100%;
+    height: 100%;
+    background: url('./img/pexels-alex-montes-892479-1820563.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+} */
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#background-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./img/pexels-samerdaboul-2600964.jpg') center center / cover no-repeat;
+    filter: blur(2px);
+    z-index: 0;
+}
+
+.text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+}
+
+.text-center p {
+    font-size: 1.6vw;
+    font-weight: 200;
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
