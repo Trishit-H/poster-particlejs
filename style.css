@@ -58,3 +58,16 @@ body {
     line-height: 1.6;
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 520px) {
+    .text-center p {
+        font-size: 2vw;
+    }
+}
+
+
+@media screen and (max-width: 840px) {
+    .text-center p {
+        font-size: 3vw;
+    }
+}
