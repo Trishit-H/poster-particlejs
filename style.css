@@ -1,4 +1,4 @@
-8@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
     margin: 0;
@@ -38,7 +38,7 @@ body {
     width: 100%;
     height: 100%;
     background: url('./img/pexels-samerdaboul-2600964.jpg') center center / cover no-repeat;
-    filter: blur(2px);
+    filter: blur(4px);
     z-index: 0;
 }
 
@@ -53,22 +53,8 @@ body {
 }
 
 .text-center p {
-    font-size: 1.6vw;
-    font-weight: 200;
-    line-height: 1.6;
+    font-size: 2vw;
+    font-weight: 100;
+    line-height: 1.5;
     letter-spacing: 2px;
-}
-
-/*
-@media screen and (max-width: 520px) {
-    .text-center p {
-        font-size: 1.6vw;
-    }
-}*/
-
-
-@media screen and (max-width: 840px) {
-    .text-center p {
-        font-size: 3vw;
-    }
 }
