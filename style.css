@@ -58,3 +58,11 @@ body {
     line-height: 1.5;
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 520px) {
+    .text-center p {
+        font-size: 2.2vw;
+        letter-spacing: 0.5px;
+        font-weight: 200;
+    }
+}
